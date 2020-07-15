@@ -3,7 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-166823272-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
+      gtag("config", "UA-166823272-1");
+    </script>
     <title>Decker Urbano</title>
     <meta content="" name="descriptison" />
     <meta content="" name="keywords" />
@@ -30,8 +43,11 @@
     />
 
     <link href="assets/vendor/hover/hover.min.css" rel="stylesheet" />
-    
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
 
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
     <link
@@ -52,7 +68,8 @@
 
   <body>
     <!-- ======= Navbar ======= -->
-    <nav id="main-nav">:
+    <nav id="main-nav">
+      :
       <div class="row">
         <div class="container">
           <div class="logo">
@@ -69,7 +86,14 @@
             <li><a href="index.html" class="smoothScroll">Home</a></li>
             <li><a href="#about" class="smoothScroll">About</a></li>
             <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
-            <li><a href="https://deckerurbano.com/desarrollo/" target="_blank" class="smoothScroll">Blog</a></li>
+            <li>
+              <a
+                href="https://deckerurbano.com/desarrollo/"
+                target="_blank"
+                class="smoothScroll"
+                >Blog</a
+              >
+            </li>
             <li><a href="#contact" class="smoothScroll">Contact</a></li>
           </ul>
         </div>
@@ -138,7 +162,6 @@
       </div>
       <!-- End About Section -->
 
-
       <!-- ======= Portfolio Section ======= -->
       <div id="portfolio" class="paddsection">
         <div class="container">
@@ -154,19 +177,14 @@
                 <li data-filter="*" class="filter-active">All</li>
                 <li data-filter=".filter-php">PHP</li>
                 <li data-filter=".filter-js">JS</li>
-               <!-- <li data-filter=".filter-web">Web</li>-->
+                <!-- <li data-filter=".filter-web">Web</li>-->
               </ul>
             </div>
           </div>
 
           <div class="row portfolio-container">
-
             <div class="col-lg-4 col-md-6 portfolio-item filter-php">
-              <img
-                src="assets/img/portfolio/1.webp"
-                class="img-fluid"
-                alt=""
-              />
+              <img src="assets/img/portfolio/1.webp" class="img-fluid" alt="" />
               <div class="portfolio-info">
                 <h4>Litle Social Media</h4>
                 <p>App</p>
@@ -196,7 +214,8 @@
                   target="_blank"
                   class="details-link"
                   title="More Details"
-                  ><i class='bx bxl-github bx-tada'></i></a>
+                  ><i class="bx bxl-github bx-tada"></i
+                ></a>
               </div>
             </div>
 
@@ -216,7 +235,6 @@
                   title="More Details"
                   ><i class="bx bxl-github bx-tada"></i
                 ></a>
-
               </div>
             </div>
 
@@ -276,7 +294,7 @@
               <div class="portfolio-info">
                 <h4>App Wallet</h4>
                 <p>App</p>
-               <!-- <a
+                <!-- <a
                   href="assets/img/portfolio/reactlaravel.webp"
                   data-gall="portfolioGallery"
                   class="venobox preview-link"
